@@ -9,11 +9,11 @@ import SwiftUI
 
 struct EmojiRatingView: View {
     let rating: Int16
-    
+
     var body: some View {
         switch rating {
         case 1:
-            return Text("🤬")
+            return Text("🙈")
         case 2:
             return Text("😔")
         case 3:
